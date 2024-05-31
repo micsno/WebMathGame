@@ -1,0 +1,88 @@
+/* Reset some basic elements for better consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    line-height: 1.6;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+header {
+    background: linear-gradient(to right, #888, #bbb);
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.3);
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+#game {
+    margin-top: 2rem;
+}
+
+input, button {
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.2);
+}
+
+input, button:hover {
+    box-shadow: 0 3px rgba(0, 0, 0, 0.5);
+    background-color: azure;
+}
+
+footer {
+    background: linear-gradient(to left, #5c5c5c, #a4a4a4);
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.8);
+}
+
+#feedback {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #ff0000;
+}
+
+#question {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+a {
+    color: #cbcbcb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: azure;
+}
+
+#language-selector {
+    margin-top: 1rem;
+    background-color: antiquewhite;
+    border-radius: 3px;
+    font-size: 12px;
+}
